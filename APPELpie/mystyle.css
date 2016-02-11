@@ -1,0 +1,17 @@
+body
+{
+background-image: url(Pic/Motherhood_and_apple_pie.jpg);
+ background-size: 100%;
+    background-repeat: repeat;
+     
+
+    
+}
+
+main
+{
+ font-family:Verdana;
+    color: white;
+background-color:#000;
+opacity: 0.8;
+}
