@@ -2,7 +2,7 @@ body
 {
 background-image: url(Pic/Motherhood_and_apple_pie.jpg);
  background-size: 100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
      
 
     
@@ -14,4 +14,28 @@ main
     color: white;
 background-color:#000;
 opacity: 0.8;
+}
+
+#meny
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+    
+}
+#menuli{
+    float: right;
+    padding: 14px 16px;
+}
+#rightside{
+    float: left;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
 }
