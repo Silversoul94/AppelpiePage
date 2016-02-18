@@ -1,23 +1,23 @@
-body
-{
+body{
 background-image: url(Pic/Motherhood_and_apple_pie.jpg);
  background-size: 100%;
-    background-repeat: no-repeat;
-     
-
+    background-repeat: no-repeat;   
+}
+#recipeBody {
+    background-image: url(Pic/appelpie.png);
+    background-size: auto;
+    background-repeat: repeat;
     
 }
 
-main
-{
+main{
  font-family:Verdana;
     color: white;
 background-color:#000;
 opacity: 0.8;
 }
 
-#meny
-{
+#meny{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,10 +32,27 @@ opacity: 0.8;
     float: left;
 }
 
-ul
-{
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;    
 }
+
+#IngredientsList{
+    display: flex;
+}
+#Pastry{
+    flex: auto;
+}
+#Filling{
+    flex: auto;
+}
+
+#Backing{
+    flex: auto;
+}
+
+
+
+
