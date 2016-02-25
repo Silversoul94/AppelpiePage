@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <nav>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </nav>
 <title>Recipe page</title>
 </head>
@@ -24,12 +25,11 @@
     </header>
     <div>
     <h3>Rating</h3>
-        <img src="Pic/star-05.jpg.png">
-            <img src="Pic/star-05.jpg.png">
-                <img src="Pic/star-05.jpg.png">
-                    <img src="Pic/star-05.jpg.png">
-                        <img src="Pic/star-05.jpg.png">
- 
+        <img  class="star" id="star1"src="Pic/graystar.png">
+            <img  class="star" id="star2"src="Pic/graystar.png">
+                <img  class="star" id="star3" src="Pic/graystar.png">
+                    <img class="star" id="star4"src="Pic/graystar.png">
+                        <img class="star" id="star5"src="Pic/graystar.png">
     </div>
     <article>
     <h2>INGREDIENTS: </h2>
@@ -69,7 +69,7 @@
             <li><button class="mybutton" type="button" onclick="setPortionSize(3);">3</button></li>
             <li><button class="mybutton" type="button" onclick="setPortionSize(4);">4</button></li>
             <li><button class="mybutton" type="button" onclick="setPortionSize(5);">5</button></li>
-            <script src="mywebfunction.js"></script>
+            
         </div>
      </div>
         
@@ -97,6 +97,7 @@
     </footer>
         </article>
  </main>
-
+<script src="mywebfunction.js"></script>
+<script src="rating.js"></script>
 </body>
 </html>
