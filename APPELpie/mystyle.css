@@ -7,13 +7,16 @@ background-image: url(Pic/Motherhood_and_apple_pie.jpg);
     background-image: url(Pic/appelpie.png);
     background-size: auto;
     background-repeat: repeat;
-    
+}
+
+a{
+ color: white;
 }
 
 main{
  font-family:Verdana;
     color: white;
-background-color:#000;
+background-color:#100;
 opacity: 0.8;
 }
 
@@ -52,6 +55,7 @@ ul{
 #Backing{
     flex: auto;
 }
+
 
 
 
