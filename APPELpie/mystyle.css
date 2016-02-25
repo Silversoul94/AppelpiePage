@@ -56,7 +56,15 @@ ul{
     flex: auto;
 }
 
+#Button{
+    flex: auto;
+}
 
-
+li{
+    list-style-type: none;
+}
+img{
+    background:transparent;
+}
 
 
