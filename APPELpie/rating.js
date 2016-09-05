@@ -55,6 +55,7 @@ $("#starap5").hover(function(){
 
 
 $('#starap1').click(function() {
+     $("#starap1").css("-webkit-filter", "grayscale(0%)");
    votesap(1);
 });
 $('#starap2').click(function() {
@@ -85,6 +86,8 @@ function votesap(i){
                 success: function(data) {
                     $('#votesap').text(data.votes+" röster");
                     $('#ratingap').text(data.rating.toFixed(2)+" i snitt.");
+                    $(".star").unbind('mouseenter mouseleave');
+                    $(".star").unbind('click').click(function(){})
                 }, 
             });       
         }, 
